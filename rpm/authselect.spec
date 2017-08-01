@@ -88,15 +88,18 @@ rm -f $RPM_BUILD_ROOT/%{_libdir}/libauthselect.so
 %{_datadir}/authselect/default/sssd/nsswitch.conf
 %{_datadir}/authselect/default/sssd/password-auth
 %{_datadir}/authselect/default/sssd/system-auth
+%dir %{_datadir}/authselect/default/winbind/
 %{_datadir}/authselect/default/winbind/README
 %{_datadir}/authselect/default/winbind/nsswitch.conf
 %{_datadir}/authselect/default/winbind/password-auth
 %{_datadir}/authselect/default/winbind/system-auth
+%dir %{_datadir}/authselect/default/sssd+fprint/
 %{_datadir}/authselect/default/sssd+fprint/README
 %{_datadir}/authselect/default/sssd+fprint/nsswitch.conf
 %{_datadir}/authselect/default/sssd+fprint/password-auth
 %{_datadir}/authselect/default/sssd+fprint/system-auth
 %{_datadir}/authselect/default/sssd+fprint/fingerprint-auth
+%dir %{_datadir}/authselect/default/winbind+fprint/
 %{_datadir}/authselect/default/winbind+fprint/README
 %{_datadir}/authselect/default/winbind+fprint/nsswitch.conf
 %{_datadir}/authselect/default/winbind+fprint/password-auth
